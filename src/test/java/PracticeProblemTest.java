@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.*;
 import java.io.*;
 
-public class Review1Test {
+public class PracticeProblemTest {
 
    @Test
    public void testQ1()
@@ -12,7 +12,7 @@ public class Review1Test {
      System.setOut(new PrintStream(bos));
 
      // action
-     Review1.q1();
+     PracticeProblem.q1();
 
      // assertion
      assertEquals("There once was a man from St. Ives.\n", bos.toString());
@@ -29,7 +29,7 @@ public class Review1Test {
      System.setOut(new PrintStream(bos));
 
      // action
-     Review1.q2();
+     PracticeProblem.q2();
 
      // assertion
      assertEquals("1\n4\n", bos.toString());
@@ -46,7 +46,7 @@ public class Review1Test {
      System.setOut(new PrintStream(bos));
 
      // action
-     Review1.q3();
+     PracticeProblem.q3();
 
      // assertion
      assertEquals("Hello\nHello again\n", bos.toString());
@@ -63,7 +63,7 @@ public class Review1Test {
      System.setOut(new PrintStream(bos));
 
      // action
-     Review1.q4();
+     PracticeProblem.q4();
 
      // assertion
      assertEquals("true\n", bos.toString());
@@ -80,7 +80,7 @@ public class Review1Test {
      System.setOut(new PrintStream(bos));
 
      // action
-     Review1.q5();
+     PracticeProblem.q5();
 
      // assertion
      assertEquals("Hello World\n", bos.toString());
